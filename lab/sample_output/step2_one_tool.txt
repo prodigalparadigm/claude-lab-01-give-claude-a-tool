@@ -1,0 +1,12 @@
+stop_reason: tool_use
+Claude called: get_policy_status {'policy_number': 'LIC-48213'}
+stop_reason: end_turn
+
+Here's the status of policy **LIC-48213**:
+
+- **Status:** Active ✅
+- **Insured Name:** Avery Chen
+- **Face Amount:** $500,000
+- **Next Premium Due Date:** September 15, 2026
+
+Let me know if you'd like any further details or assistance with this policy!

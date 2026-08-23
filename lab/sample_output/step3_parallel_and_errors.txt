@@ -1,0 +1,31 @@
+
+--- Compare policies LIC-48213 and LIC-77102 — which one needs attention first?
+stop_reason: tool_use
+Claude called: get_policy_status {'policy_number': 'LIC-48213'}
+Claude called: get_policy_status {'policy_number': 'LIC-77102'}
+stop_reason: end_turn
+
+Here's the comparison:
+
+| Policy | Insured | Status | Premium Due | Face Amount |
+|---|---|---|---|---|
+| LIC-48213 | Avery Chen | **Active** | 2026-09-15 | $500,000 |
+| LIC-77102 | Marcus Webb | **Lapsed** | 2026-06-01 | $250,000 |
+
+**LIC-77102 needs attention first.** It has already lapsed (premium due date 2026-06-01 has passed without payment being applied), meaning coverage for Marcus Webb may currently be at risk or suspended. Contacting the policyholder about reinstatement should be a priority.
+
+LIC-48213 is active and in good standing, with its next premium not due until 2026-09-15 — no immediate action needed there beyond normal monitoring.
+
+--- What about policy LIC-00000?
+stop_reason: tool_use
+Claude called: get_policy_status {'policy_number': 'LIC-00000'}
+stop_reason: end_turn
+
+It looks like policy **LIC-00000** doesn't exist in our system — I received a "no policy found" error when looking it up.
+
+A few things to check:
+- Double-check the policy number for typos (they typically follow the format LIC-##### with digits from an actual account).
+- If you have a physical policy document or statement, verify the number printed there.
+- It's possible this was a placeholder or example number rather than a real policy.
+
+If you have the correct policy number, feel free to share it and I can look up its status, insured name, premium due date, and face amount for you.

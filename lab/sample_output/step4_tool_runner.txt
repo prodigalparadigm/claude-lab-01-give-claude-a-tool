@@ -1,0 +1,11 @@
+stop_reason: tool_use
+stop_reason: end_turn
+
+Here's what I found for policy **LIC-90031**:
+
+- **Insured:** Ruth Kowalski
+- **Status:** ⚠️ **Lapsed** — not currently in good standing
+- **Premium Due Date:** April 18, 2026
+- **Face Amount:** $300,000
+
+Since the policy has lapsed, coverage is not active. To reinstate it, you'll typically need to contact the insurer to pay any outstanding premium (and possibly complete a reinstatement application, which may involve proof of insurability depending on how long it's been lapsed). Let me know if you'd like help with anything else regarding this policy.

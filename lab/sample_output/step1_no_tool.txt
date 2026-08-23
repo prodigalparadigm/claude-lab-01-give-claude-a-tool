@@ -1,0 +1,12 @@
+stop_reason: end_turn
+
+I don't have access to any policy database, customer records, or external systems—so I can't look up policy LIC-48213 or any specific account information. I have no way to retrieve real, current data like policy statuses, claims, or coverage details.
+
+To get accurate information on that policy, you'd want to:
+
+- Check the insurer's online portal or member account, if there is one
+- Call the insurance company's customer service line (the number is usually on the policy documents or an insurance card)
+- Contact the agent or broker who issued the policy
+- Look at any recent paperwork or emails from the insurer, which often show status/renewal info
+
+If you can tell me what type of policy it is (life, auto, home, health, etc.) and what you're trying to figure out—like whether it's active, how to renew it, or what a status code means—I'm happy to help explain general concepts or walk through next steps.

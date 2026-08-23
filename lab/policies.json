@@ -1,0 +1,44 @@
+{
+  "LIC-48213": {
+    "policy_number": "LIC-48213",
+    "status": "active",
+    "insured_name": "Avery Chen",
+    "premium_due_date": "2026-09-15",
+    "face_amount": 500000
+  },
+  "LIC-77102": {
+    "policy_number": "LIC-77102",
+    "status": "lapsed",
+    "insured_name": "Marcus Webb",
+    "premium_due_date": "2026-06-01",
+    "face_amount": 250000
+  },
+  "LIC-12905": {
+    "policy_number": "LIC-12905",
+    "status": "pending",
+    "insured_name": "Dana Okafor",
+    "premium_due_date": "2026-10-01",
+    "face_amount": 750000
+  },
+  "LIC-33417": {
+    "policy_number": "LIC-33417",
+    "status": "active",
+    "insured_name": "Priya Natarajan",
+    "premium_due_date": "2026-11-20",
+    "face_amount": 1000000
+  },
+  "LIC-58260": {
+    "policy_number": "LIC-58260",
+    "status": "active",
+    "insured_name": "Sam Alvarez",
+    "premium_due_date": "2026-09-03",
+    "face_amount": 150000
+  },
+  "LIC-90031": {
+    "policy_number": "LIC-90031",
+    "status": "lapsed",
+    "insured_name": "Ruth Kowalski",
+    "premium_due_date": "2026-04-18",
+    "face_amount": 300000
+  }
+}
