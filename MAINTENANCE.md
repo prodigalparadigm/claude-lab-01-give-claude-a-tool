@@ -1,7 +1,7 @@
 # Maintenance — release-cycle checklist
 
-A lab is only true on the day it was verified. This unit was authored and verified
-on **2026-08-23** with the versions below. Re-verify on **every model release and
+A lab is only true on the day it was verified. This unit was authored on
+**2026-08-23** and last re-verified on **2026-11-24** with the versions below. Re-verify on **every model release and
 every SDK minor**, and after any edit to the scripts.
 
 ## Pinned surface
@@ -9,8 +9,8 @@ every SDK minor**, and after any edit to the scripts.
 | Thing | Pinned at | Where |
 |---|---|---|
 | Python SDK | `anthropic==1.0.0` | `lab/requirements.txt` |
-| Model (default) | `claude-sonnet-5` | `ANTHROPIC_MODEL` env override in every script |
-| Model (verified alternate) | `claude-opus-5` | identical trace shape, ~2.5× price |
+| Model (default) | `claude-sonnet-5-5` | `ANTHROPIC_MODEL` env override in every script |
+| Models (verified earlier) | `claude-sonnet-5` (default until 2026-11-24), `claude-opus-5` (~2.5× price) | identical trace shape, verified 2026-08-23 |
 | Tool runner path | `client.beta.messages.tool_runner` — **beta** | `lab/step4_tool_runner.py` |
 | dotenv | `python-dotenv==1.1.1` | `lab/requirements.txt` |
 

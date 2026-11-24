@@ -40,7 +40,7 @@ the session including exercise re-runs; a room of 20 is a five-dollar class.
 
 ## Model notes
 
-Default is `claude-sonnet-5`, overridable per-machine with the `ANTHROPIC_MODEL`
+Default is `claude-sonnet-5-5`, overridable per-machine with the `ANTHROPIC_MODEL`
 environment variable — no code edits. `claude-opus-5` was run against Steps 1–2
 during authoring and produces the **identical trace shape** (same `stop_reason`
 sequence; no extra block types surface in the printed output) at roughly 2.5× the

@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 client = anthropic.Anthropic()
-MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
 
 response = client.messages.create(
     model=MODEL,

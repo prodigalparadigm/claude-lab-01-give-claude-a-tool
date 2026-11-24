@@ -53,8 +53,9 @@ guide exercises, and both models' trace shapes were **verified by live runs on
 2026-08-23** in a fresh Linux venv that had never seen the repo; the transcripts
 in `lab/sample_output/` and every observed-output block in the guide are pasted
 from those runs, not written from memory. Versions are pinned in
-`lab/requirements.txt`; the default model is `claude-sonnet-5` with
-`claude-opus-5` verified as producing the identical trace.
+`lab/requirements.txt`; the default model is `claude-sonnet-5-5`
+(re-verified 2026-11-24); `claude-sonnet-5` and `claude-opus-5` were
+verified earlier as producing the identical trace.
 
 ## Maintenance
 
